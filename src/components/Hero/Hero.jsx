@@ -21,7 +21,7 @@ export default function Hero() {
                     lineHeight={'110%'}>
                     resto-hub{' '}
                 </Heading>
-                <Text color={'gray.500'} maxW={'3xl'}>
+                <Text color={'gray.500'} maxW={'3xl '}>
 
                     Explore and discover a new restaurant, rate it and add it to favorites!
                 </Text>
