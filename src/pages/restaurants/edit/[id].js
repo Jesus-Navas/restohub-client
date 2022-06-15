@@ -1,6 +1,6 @@
 import Router, { useRouter } from 'next/router'
 import { useEffect } from 'react'
-import EditRestaurantForm from "../../../components/restaurants/EditRestaurantForm";
+import EditRestaurantForm from "../../../components/Restaurants/EditRestaurantForm";
 import Head from 'next/head'
 
 export default function EditRestaurant() {
