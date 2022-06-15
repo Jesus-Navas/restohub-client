@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const authService = axios.create({
-    baseURL: process.env.NEXT_PUBLIC_API_BASE_ENDPOINT ? `${process.env.NEXT_PUBLIC_API_BASE_ENDPOINT}/api/auth` : 'http://localhost:3000/api/auth'
+    baseURL: process.env.NEXT_PUBLIC_API_BASE_ENDPOINT ? `${process.env.NEXT_PUBLIC_API_BASE_ENDPOINT}/api/auth` : 'http://localhost:5005/api/auth'
 })
 
 export function signUp(userdata) {

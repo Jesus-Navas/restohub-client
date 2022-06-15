@@ -1,8 +1,9 @@
 import axios from 'axios';
 
 const restaurantService = axios.create({
-    baseURL: process.env.NEXT_PUBLIC_API_BASE_ENDPOINT
+    baseURL: process.env.NEXT_PUBLIC_API_BASE_ENDPOINT ? `${process.env.NEXT_PUBLIC_API_BASE_ENDPOINT}/api/restaurants` : 'http://localhost:5005/api/auth'
 })
+
 
 export function getAll() {
     return restaurantService.get('/')
