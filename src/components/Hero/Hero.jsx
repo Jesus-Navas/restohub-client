@@ -22,7 +22,8 @@ export default function Hero() {
                     resto-hub{' '}
                 </Heading>
                 <Text color={'gray.500'} maxW={'3xl'}>
-                    Explora y descubre un nuevo restaurante, valoralo y añadelo a favoritos!
+
+                    Explore and discover a new restaurant, rate it and add it to favorites!
                 </Text>
                 <Stack spacing={6} direction={'row'}>
                     <Link href={'/restaurants'} passHref>
