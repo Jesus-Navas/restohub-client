@@ -1,5 +1,5 @@
 import { ThemeProvider, theme, CSSReset } from "@chakra-ui/react"
-import Navbar from "../components/navbar/Navbar"
+import Navbar from "../components/Navbar/Navbar"
 import { AuthProviderWrapper } from "../context/auth.context"
 
 function MyApp({ Component, pageProps }) {

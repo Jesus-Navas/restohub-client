@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import { AuthContext } from '../../context/auth.context'
-import Profile from '../../components/user/Profile'
+import Profile from '../../components/User/Profile'
 import { Spinner } from '@chakra-ui/react'
 import Head from 'next/head'
 

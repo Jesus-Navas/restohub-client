@@ -1,4 +1,4 @@
-import RestaurantDetail from "../../components/restaurants/RestaurantDetail"
+import RestaurantDetail from "../../components/Restaurants/RestaurantDetail"
 import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 import { getOneRestaurant } from "../../services/restaurant.services"

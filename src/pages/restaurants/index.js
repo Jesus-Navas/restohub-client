@@ -1,4 +1,4 @@
-import RestaurantGrid from "../../components/restaurants/RestaurantGrid"
+import RestaurantGrid from "../../components/Restaurants/RestaurantGrid"
 import { getAll } from "../../services/restaurant.services"
 import { Heading, Text, Box, Spinner } from '@chakra-ui/react'
 import Head from 'next/head'

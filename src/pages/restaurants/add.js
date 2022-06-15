@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import NewRestaurantForm from "../../components/restaurants/NewRestaurantForm";
+import NewRestaurantForm from "../../components/Restaurants/NewRestaurantForm";
 import Router from 'next/router'
 import Head from 'next/head'
 
