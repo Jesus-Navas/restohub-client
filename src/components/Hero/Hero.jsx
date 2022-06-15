@@ -15,22 +15,14 @@ export default function Hero() {
                 align={'center'}
                 spacing={{ base: 8, md: 10 }}
                 py={{ base: 20, md: 28 }}>
-                <Text
-                    as={"h1"}
-                >resto-hub</Text>
                 <Heading
                     fontWeight={600}
                     fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                     lineHeight={'110%'}>
-                    Finding restaurants{' '}
-                    <Text as={'span'} color={'#0F1C51'}>
-                        made easy
-                    </Text>
+                    resto-hub{' '}
                 </Heading>
                 <Text color={'gray.500'} maxW={'3xl'}>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias tempora sequi
-                    aperiam provident, sit optio necessitatibus quis, fugit nostrum fuga placeat vel ab
-                    voluptate in inventore dolorem mollitia hic totam.
+                    Explora y descubre un nuevo restaurante, valoralo y añadelo a favoritos!
                 </Text>
                 <Stack spacing={6} direction={'row'}>
                     <Link href={'/restaurants'} passHref>
