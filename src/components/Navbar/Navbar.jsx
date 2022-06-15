@@ -22,18 +22,10 @@ const Header = () => {
             wrap="wrap"
             w="95vw"
         >
-            <Box w="200px">
-                <Link href={'/'} passHref>
-                    <Image
-                        src=''
-                        alt='resto-hub logo'
-                        h={'10vh'}>
-                    </Image>
-                </Link>
-            </Box>
             <Box display={{ base: 'block', md: 'none' }} onClick={toggleMenu}>
                 {show ? <CloseIcon /> : <HamburgerIcon />}
             </Box>
+            <Box widt={"500px"}>🍕</Box>
             <Box
                 display={{ base: show ? 'block' : 'none', md: 'block' }}
                 flexBasis={{ base: '100%', md: 'auto' }}>

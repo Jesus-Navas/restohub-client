@@ -1,0 +1,1 @@
+{"c":["pages/_app","webpack"],"r":["pages/signup"],"m":["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignup&absolutePagePath=%2Fhome%2Fnavas%2FDesktop%2Fresto-hub%2Frestohub-client%2Fsrc%2Fpages%2Fsignup.js!","./src/components/auth/SignupForm.jsx","./src/pages/signup.js"]}
