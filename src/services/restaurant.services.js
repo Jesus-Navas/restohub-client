@@ -1,8 +1,9 @@
 import axios from 'axios';
 
 const restaurantService = axios.create({
-    baseURL: `https://tailor-challenge-api.herokuapp.com/api/restaurants`
+    baseURL: process.env.NEXT_PUBLIC_API_BASE_ENDPOINT ? `${process.env.NEXT_PUBLIC_API_BASE_ENDPOINT}/api/restaurants` : 'http://localhost:5005/api/auth'
 })
+
 
 export function getAll() {
     return restaurantService.get('/')
